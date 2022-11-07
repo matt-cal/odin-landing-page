@@ -82,3 +82,50 @@ a {
     width: 820px;
     height: 400px;
 }
+
+.two .container {
+    display: flex;
+    gap: 120px;
+}
+
+.content.two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.content.three {
+    padding: 100px 500px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote {
+    border: solid 2px blue;
+    max-width: 800px;
+    padding-right: 0px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+#author {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 400px;
+}
